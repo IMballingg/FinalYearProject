@@ -11,7 +11,7 @@ int LinearSearch(std::vector<long long>&data,long long target,long long sizeofar
     }
     return -1;
 }
-int main(){
+int main(int argc,char** argv){
     std::cout << "Enter the value You want to search: \n";
     long long target{};
     std::cin >> target;
